@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.659 s <<< FAILURE! - in TestSuite
+excel(Reportgeneration.Reports.Exceldatadriven)  Time elapsed: 0.053 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
+	at Reportgeneration.Reports.Exceldatadriven.excel(Exceldatadriven.java:23)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
+	at Reportgeneration.Reports.Exceldatadriven.excel(Exceldatadriven.java:23)
+
